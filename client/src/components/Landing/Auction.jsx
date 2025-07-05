@@ -7,7 +7,7 @@ export const Auction = () => {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center mb-8">
-          <h2 className="text-2xl font-bold text-gray-900">Live Auctions</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Live Auctions (Demo items when u will login it will show actual bidding items)</h2>
           <Link
             to="/signup"
             className="text-gray-700 hover:text-gray-900 flex items-center"
