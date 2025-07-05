@@ -52,13 +52,18 @@ export const Navbar = () => {
       <header className="bg-white shadow-lg sticky top-0 z-40 border-b border-gray-200">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            {/* Logo */}
-            <Link to="/" className="flex items-center space-x-3">
-              <RiAuctionLine className="h-7 w-7 text-blue-600" />
-              <span className="text-xl font-bold text-gray-900">
-                BidMaster
-              </span>
-            </Link>
+        {/* Logo */}
+{/* Logo */}
+<Link to="/" className="flex items-center space-x-3">
+  <svg className="h-7 w-7 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V7C19 9.76 16.76 12 14 12H13V17H16C16.55 17 17 17.45 17 18S16.55 19 16 19H8C7.45 19 7 18.55 7 18S7.45 17 8 17H11V12H10C7.24 12 5 9.76 5 7V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM17 6H7V7C7 8.65 8.35 10 10 10H14C15.65 10 17 8.65 17 7V6Z"/>
+  </svg>
+  <span className="text-xl font-bold text-gray-900">
+    BidWin
+  </span>
+</Link>
+
+
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
@@ -125,7 +130,7 @@ export const Navbar = () => {
           <div className="flex items-center space-x-3">
             <RiAuctionLine className="h-6 w-6 text-blue-400" />
             <span className="text-xl font-bold text-white">
-              BidMaster
+              BidWin
             </span>
           </div>
           <button
