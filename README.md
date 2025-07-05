@@ -13,8 +13,9 @@ This system supports secure login via **httpOnly cookies**, tracks login device 
 ## 🌐 Live Preview
 
 
+![bidding ](https://github.com/user-attachments/assets/234e293b-d1f0-44df-8b14-7708dcf30574)
 
-![Preview](https://github.com/prateekrajput9/auctionsystemm/client/src/assests/bidding.png)
+
 
 ---
 
